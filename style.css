@@ -1,0 +1,126 @@
+body{
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/77/93/restaurant-menu-design-on-wood-background-vector-3417793.jpg");
+    height:99%;
+    width:99%;
+    background-size: cover;
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+.bg-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:80px;
+    align-items:center;
+    padding:0px 40px;
+}
+.logo{
+    font-size: 40px;
+    color:orangered;
+}
+.nav{
+    position:relative;
+    left:-180px;
+}
+a{
+    padding:5px 15px;
+    color:orange;
+    size:20px;
+    text-decoration:none;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.sea{
+    color:rgb(51, 51, 198);
+    font-size:20px;
+}
+.sea i{
+    padding:5px 15px;
+}
+.heading{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:65px;
+    align-items:center;
+    position:relative;
+    left:80px;
+}
+.right{
+    width:340px;
+    height:340px;
+    border-radius:50%;
+    margin-left:600px;
+    margin-top:50px;
+    animation-name:rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+@keyframes rotate{
+    0%{
+        rotate:0deg;
+    }
+    100%{
+        rotate:360deg;
+    }
+}
+.p1{
+    font-style: italic;
+    color: white;
+    font-size:25px;
+}
+.h1{
+    font-size:75px;
+    color:white;
+}
+.p2{
+    font-size: 25px;
+    color:orange;
+}
+button{
+    border-radius: 10px;
+    background-color: transparent;
+    height:25px;
+    width:150px;
+    color:white;
+    margin-top: 10px;
+}
+.bg-cont{
+    background-image: url("https://wallpaperaccess.com/full/3014739.jpg");
+    height:100vh;
+    background-size:cover;
+}
+.img{
+    height:250px;
+    width:250px;
+}
+.d1{
+    border:2px solid black;
+    padding:10px 15px;
+    display:inline-block;
+    margin-left:2px;
+}
+.button{
+    border-radius: 10px;
+    background-color:black;
+    height:25px;
+    width:150px;
+    color:white;
+    margin-top: 10px;
+}
+.cb{
+    color:rgb(255, 200, 0);
+    text-align:center;
+}
+.img1{
+    height:250px;
+    width:250px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    
+}
